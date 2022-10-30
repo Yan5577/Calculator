@@ -1,0 +1,33 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  text-align: center;
+  top:50%;
+  left:50%;
+  background: gray;
+
+}
+.container {
+  width: 360px;
+  border: 10px solid green;
+  background: olivedrab;
+  border-radius: 5px; 
+   
+}
+
+button {
+  background-color: gray;
+  width:90px;
+  border-radius: 5px;
+}
+.ev {
+  width: 360px;
+}
